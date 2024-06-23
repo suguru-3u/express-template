@@ -21,7 +21,7 @@ GitHub から本プロジェクトをダウンロードした後に Docker を�
       1. `docker image ls`でイメージが存在するのか確認を行い、表示される IMAGE ID を控えておく。
 4. コンテナの作成&時コンテナにログインする
    1. No3 で控えた IMAGE ID を使用して以下のコマンドを実行する
-      `docker run -p 3000:3000 --name express -it <控えたIMAGE ID> sh`
+      `docker run -p 3000:3000 --name express -it <控えたIMAGE ID or IMAGE NAME> sh`
 
 - その他コマンド
   - コンテナが立ち上がっていることを確認：`docker container ls`
